@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://penghez.github.io/</id>
     <title>Penghe Zhang&apos;s Notes</title>
-    <updated>2020-05-31T19:36:40.386Z</updated>
+    <updated>2020-06-01T19:50:59.499Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://penghez.github.io/"/>
     <link rel="self" href="https://penghez.github.io/atom.xml"/>
@@ -10,19 +10,6 @@
     <logo>https://penghez.github.io/images/avatar.png</logo>
     <icon>https://penghez.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Penghe Zhang&apos;s Notes</rights>
-    <entry>
-        <title type="html"><![CDATA[Install JDK]]></title>
-        <id>https://penghez.github.io/post/install-jdk/</id>
-        <link href="https://penghez.github.io/post/install-jdk/">
-        </link>
-        <updated>2020-05-31T04:17:21.000Z</updated>
-        <content type="html"><![CDATA[<p>Get local JDK paths:<br>
-<code>/usr/libexec/java_home -V</code></p>
-<p>On Ubuntu:<br>
-<code>sudo apt update</code><br>
-<code>sudo apt-get install openjdk-8-jdk</code></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[PostgreSQL config files]]></title>
         <id>https://penghez.github.io/post/postgresql-config-files/</id>
@@ -33,6 +20,19 @@
 <code>SHOW config_file</code></p>
 <p>Find hba conf in PostgreSQL:<br>
 <code>SHOW hba_file</code></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install JDK]]></title>
+        <id>https://penghez.github.io/post/install-jdk/</id>
+        <link href="https://penghez.github.io/post/install-jdk/">
+        </link>
+        <updated>2020-05-29T22:17:21.000Z</updated>
+        <content type="html"><![CDATA[<p>Get local JDK paths:<br>
+<code>/usr/libexec/java_home -V</code></p>
+<p>On Ubuntu:<br>
+<code>sudo apt update</code><br>
+<code>sudo apt-get install openjdk-8-jdk</code></p>
 ]]></content>
     </entry>
 </feed>
