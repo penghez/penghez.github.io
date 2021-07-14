@@ -2,14 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://penghez.github.io/</id>
     <title>Penghe Zhang&apos;s Notes</title>
-    <updated>2020-06-01T20:11:36.083Z</updated>
+    <updated>2021-07-14T21:42:56.404Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://penghez.github.io/"/>
     <link rel="self" href="https://penghez.github.io/atom.xml"/>
     <subtitle>Personal Notes</subtitle>
     <logo>https://penghez.github.io/images/avatar.png</logo>
     <icon>https://penghez.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Penghe Zhang&apos;s Notes</rights>
+    <rights>All rights reserved 2021, Penghe Zhang&apos;s Notes</rights>
+    <entry>
+        <title type="html"><![CDATA[Close an open port on the Mac]]></title>
+        <id>https://penghez.github.io/post/close-an-open-port-on-the-mac/</id>
+        <link href="https://penghez.github.io/post/close-an-open-port-on-the-mac/">
+        </link>
+        <updated>2020-05-31T15:28:21.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>
+<p>Find out the process ID (PID) which is occupying the port number (e.g., 5955) you would like to free<br>
+<code>sudo lsof -i :5955</code></p>
+</li>
+<li>
+<p>Kill the process which is currently using the port using its PID<br>
+<code>sudo kill -15 PID</code></p>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PostgreSQL config files]]></title>
         <id>https://penghez.github.io/post/postgresql-config-files/</id>
